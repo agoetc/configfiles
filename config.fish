@@ -30,7 +30,7 @@ function fish_user_key_bindings
 
 # merge済みbranch消すやつ
 function branch_clean
-      git branch --merged|egrep -v '\*|develop|master|feature/add_loadChat_tmp'|xargs git branch -d
+      git branch --merged|egrep -v '\*|develop|master'|xargs git branch -d
 end
 
 
