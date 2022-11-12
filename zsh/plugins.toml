@@ -1,1 +1,27 @@
-/Users/cw-takegawa/.sheldon/plugins.toml
+shell = "zsh"
+
+[plugins.asdf]
+git = 'https://github.com/asdf-vm/asdf'
+
+[plugins.z]
+git = 'https://github.com/rupa/z'
+
+[plugins.fzf]
+git = 'https://github.com/junegunn/fzf'
+
+[plugins.zsh-completions]
+git = 'https://github.com/zsh-users/zsh-completions'
+
+[plugins.autosuggestions]
+git = 'https://github.com/zsh-users/zsh-autosuggestions'
+
+# [plugins."auto-fu.zsh"]
+# git = 'https://github.com/hchbaw/auto-fu.zsh'
+
+[plugins.zsh-fuzzy-match]
+git = 'https://github.com/tarruda/zsh-fuzzy-match'
+
+[plugins."git-aliases.zsh"]
+git = 'https://github.com/peterhurford/git-aliases.zsh'
+
+
